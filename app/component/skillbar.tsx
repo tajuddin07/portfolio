@@ -7,7 +7,7 @@ export default function skillbar() {
     let medium = "#6aee30"
     let interemediate = "#6096c6"
     let beginner = "6096c5"
-    let [showSkills,setShowSkills] = React.useState(true)
+    // let [showSkills,setShowSkills] = React.useState(true)
     // let [showFramework,setShowFramework] = React.useState(false) 
 
     {
