@@ -48,7 +48,7 @@ export default function skillbar() {
                     <div className={`w-full md:w-1/2 h-fit md:h-full flex flex-col items-center p-4 `}>
                         <h1 className='text-lg md:text-xl'>Technologies/Framework :</h1>
                         <div className='w-full h-full md:w-fit md:h-fit  bg-slate-700 px-10 py-4 rounded-xl text-white'>
-                            <ul className=' list-disc text-xs md:text-lg md:flex  md:flex-col '>
+                            <ul className=' list-disc text-xs md:text-lg flex flex-wrap  md:flex-col '>
                                 <li>NextJs</li>
                                 <li>NuxtJs</li>
                                 <li>Express</li>

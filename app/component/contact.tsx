@@ -39,8 +39,8 @@ export default function Contact() {
         <main className="w-fit h-auto items-center">
             <div className=' w-fit h-auto p-4'>
 
-                <motion.div variants={variants} initial="initial" animate={showContact ? "initial" : "animate"} className={`bg-white bg-opacity-0 items-center justify-center h-fit p-1 rounded-xl w-fit hover:scale-105  ${showContact ? "hidden" : "visible"}`}>
-                    <Image src="/t-icon-nobg.png" onClick={changeContact} width={100} height={100} alt='Email Icon' className='' />
+                <motion.div variants={variants} initial="initial" animate={showContact ? "initial" : "animate"} className={`bg-white items-center justify-center h-fit p-1 rounded-xl w-fit hover:scale-105  ${showContact ? "hidden" : "visible"}`}>
+                    <Image src="/contact-book.png" onClick={changeContact} width={40} height={40} alt='Email Icon' className='' />
                 </motion.div>
                 <motion.div onMouseLeave={changeContact} onTouchEnd={changeContact} variants={variants2} initial="initial" animate={showContact ? "animate" : "initial"} className={showContact ? "visible" : "hidden"}>
                     <div className='bg-white text-black rounded-b-lg rounded-tr-lg p-4 flex flex-row gap-7 '>
